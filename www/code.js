@@ -1,5 +1,4 @@
-//declare database
-var db = null;
+
 
 function init() {
     // the next line makes it impossible to see Contacts on the HTC Evo since it
