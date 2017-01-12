@@ -17,14 +17,14 @@ function onDeviceReady() {
 }    
     
 function createFile() {
-   var type = window.TEMPORARY;
-   var size = 5*1024*1024;
+   var type = LocalFileSystem.PERSISTENT;
+   var size = 0;
 
    window.requestFileSystem(type, size, successCallback, errorCallback)
 
    function successCallback(fs) {
       fs.root.getFile('log.txt', {create: true, exclusive: true}, function(fileEntry) {
-         alert('File creation successfull!')
+         alert('File creation successfull!');
       }, errorCallback);
    }
 
