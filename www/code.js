@@ -10,9 +10,9 @@ function init() {
 function onDeviceReady() {
     window.alert("In onDeviceReady");
    // document.getElementById("createFile").addEventListener("click", createFile);
-	document.getElementById("writeFile").addEventListener("click", writeFile);
-	document.getElementById("readFile").addEventListener("click", readFile);
-	document.getElementById("removeFile").addEventListener("click", removeFile);
+	//document.getElementById("writeFile").addEventListener("click", writeFile);
+	//document.getElementById("readFile").addEventListener("click", readFile);
+	//document.getElementById("removeFile").addEventListener("click", removeFile);
     
 }    
     
