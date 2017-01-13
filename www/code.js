@@ -17,7 +17,7 @@ function onDeviceReady() {
 }    
     
 function createFile() {
-   var type = LocalFileSystem.PERSISTENT;
+  /* var type = LocalFileSystem.PERSISTENT;
    var size = 0;
 
    window.requestFileSystem(type, size, successCallback, errorCallback)
@@ -31,5 +31,6 @@ function createFile() {
    function errorCallback(error) {
       alert("ERROR: " + error.code)
    }
-	
+  */
+	alert("clicked create file");
 }
